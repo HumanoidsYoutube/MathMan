@@ -2,3 +2,5 @@
 <img style="height:22px!important;margin-left:auto;margin-right:auto;display:block;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:auto;margin-right:auto;display:block;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:auto;margin-right:auto;display:block;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /></a>
 
 # MathMan
+
+Just the code - look above for how to use. YouTube videos other than made by <a href = 'https://www.youtube.com/channel/UCZGfr63PP6-j5yPVBDp9V9Q/featured?sub_confirmation=1'>Humanoids.</a> are not by the creators.
