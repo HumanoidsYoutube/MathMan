@@ -4,3 +4,5 @@
 # MathMan
 
 Just the code - look above for how to use. YouTube videos other than made by <a href = 'https://www.youtube.com/channel/UCZGfr63PP6-j5yPVBDp9V9Q/featured?sub_confirmation=1'>Humanoids.</a> are not by the creators.
+
+<p style = 'font-size: 50px;'>THIS IS THE BETA VERSION - CLICK <a href = 'https://github.com/HumanoidsYoutube/MathMan/tree/main'>HERE</a> TO GO BACK TO THE CURRENTLY PUBLISHED</p>
