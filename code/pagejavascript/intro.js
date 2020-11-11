@@ -13,9 +13,6 @@
             var message = 0;
 
             //functions
-            function ip() {
-                fetch('https://api.ipify.org/?format=json').then(results => results.json()).then(data => return data.ip);
-            }
             function run() {
                 var username = grab("username");
                 if(button.innerHTML === "Start") {
@@ -141,7 +138,6 @@
                     }, 1500)
                     setTimeout(function(){location.replace("gamelist.html")}, 2500)
                 }else if(button.innerHTML === "🍪 ① Check Cookie 1 ① 🍪") {
-                    var ip = ip();
                     check("username", "What should we call you?");
                     button.innerHTML = "&#127850; &#9313; Check Cookie 2 &#9313; &#127850;"
                 }else if(button.innerHTML === "🍪 ② Check Cookie 2 ② 🍪") {
