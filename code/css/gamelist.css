@@ -1,0 +1,54 @@
+body {
+    background-color: #000000;
+    transition: 0.5s;
+}
+.display {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0;
+    transition: 0.5s;
+    color: honeydew;
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+    font-family: monospace;
+}
+.gamelist {
+    background-color: dodgerblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+.gameimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gametext {
+    margin-right: 20px;
+}
+.gamebreak {
+    font-size: 10px;
+}
+.gametitle {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+.gamedec {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.gamelink {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+}

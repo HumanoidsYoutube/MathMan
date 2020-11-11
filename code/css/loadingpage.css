@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: serif;
+    text-align: center;
+    font-size: 18px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+a:hover {
+    font-size: 22px;
+}
