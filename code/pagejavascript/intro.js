@@ -137,11 +137,11 @@
                         dis.style.fontSize = 0;
                     }, 1500)
                     setTimeout(function(){location.replace("gamelist.html")}, 2500)
-                }else if(button.innerHTML === "🍪 ① Check Cookie 1 ① 🍪") {
-                    check("username", "What should we call you?");
-                    button.innerHTML = "&#127850; &#9313; Check Cookie 2 &#9313; &#127850;"
-                }else if(button.innerHTML === "🍪 ② Check Cookie 2 ② 🍪") {
-                    check("gender");
+                }else if(button.innerHTML ==== "🍪 ① Check Cookie 1 ① 🍪") {
+                    check("username", "What should we call you?\n\n", "", 2, 15);
+                    button.innerHTML = "🍪 ② Check Cookie 2 ② 🍪";
+                }else if(button.innerHTML = "🍪 ② Check Cookie 2 ② 🍪") {
+                    check("gender", "Boy or girl?\nB - Boyn\nG - Girl\n\n", "", 0, 2)
                     button.innerHTML = "Start"
                 }//end of button if/else
             }//end function
