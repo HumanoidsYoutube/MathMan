@@ -47,6 +47,7 @@ function start() {
         }, 1500)
     }
 
+
 function type(text, ii, sped) {
     id = ii
     txt = text
@@ -81,7 +82,7 @@ function part(numberofpart) {
         type('It is almost time to go.', 'mmtalk', 55)
         setTimeout(function() {
             type('Why?', 'mmtalk', 100)
-            clipart.src = '../../../../media/sidekick.svg'
+            clipart.src = '../../media/sidekick.svg'
             setTimeout(function() {
                 type('They are coming.', 'mmtalk', 250)
                 clipart.src = 'https://humanoidsyoutube.github.io/MathManAbout/media/images/favicon/favicon%201.svg'
