@@ -147,7 +147,7 @@
             }//end function
             function win(website, dec){
                 var myWindow = window.open("", "");
-                myWindow.document.write(`<html><head><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"><style>body{font-family: 'Source Sans Pro', sans-serif;}a{font-family: 'Source Sans Pro', sans-serif;color:black;}a:hover{color:blue;}</style><title>Taking you to ` + dec + `</title></head><body onload = 'start()'>Taking you to ` + dec + ` - Click <a href = '` + website + `'>here</a> to go there.</body></html>`);
+                myWindow.document.write(`<html><head><meta http-equiv="refresh" content="5;url=`+ website + `" /><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"><style>body{font-family: 'Source Sans Pro', sans-serif;}a{font-family: 'Source Sans Pro', sans-serif;color:black;}a:hover{color:blue;}</style><title>Taking you to ` + dec + `</title></head><body onload = 'start()'>Taking you to ` + dec + ` - Click <a href = '` + website + `'>here</a> to go there. Taking you automaticly in 5 seconds.</body></html>`);
             }
 function setCookie(name, value, ex) {
   var d = new Date();
