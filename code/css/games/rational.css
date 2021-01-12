@@ -1,0 +1,66 @@
+.startbutton {
+    width: 98.3%;
+    height: 25%;
+    background: rgb(80,185,27);
+    background: linear-gradient(63deg, rgba(80,185,27,1) 0%, rgba(7,125,32,1) 69%);
+    background-size: 100%;
+    color: black;
+    border: none;
+    display: block;
+    position: fixed;
+    font-size: 10pc;
+    margin-right: auto;
+    margin-left: auto;
+    margin: none;
+    font-family: 'Yusei Magic', cursive;
+    transition: 0.5s;
+}
+.startbutton:hover {
+    background: rgb(7,125,32);
+    background: linear-gradient(63deg, rgba(7,125,32,1) 31%, rgba(80,185,27,1) 100%);
+}
+#status {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    transition: 1s;
+}
+#loader {
+    transition: 1s;
+    opacity: 1;
+}
+#loadertop {
+    transition: 1s;
+    opacity: 1;
+}
+#loaderbottom {
+    transition: 1s;
+    opacity: 1;
+}
+#tip {
+    transition: 1s;
+    font-size: 20;
+    position: fixed;
+    margin: 9 5 10 5;
+    padding: 10 20;
+    font-family: 'Noto Sans', sans-serif;
+}
+#mathman {
+    width: 300;
+    position: fixed;
+    margin: 450 0 15 250;
+    height: 400;
+    transition: 0.5s;
+}
+#mmtalk {
+    position: fixed;
+    margin-top: 350;
+    margin-left: 30;
+    margin-right: 500;
+    transition: 0.5s;
+}
+body {
+    transition: 1s;
+    background-color: white;
+}
